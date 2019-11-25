@@ -12,7 +12,7 @@ h3 {
   color: white;
   text-align:center
 }
-.cd-logo, .kitchen-equipment, .cake-ingredients {
+.cd-logo, .kitchen-equipment,.cake-ingredients, .preparation, .cooking-instructions, .decoration {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,7 +28,19 @@ h3 {
   background-size: auto;
 }
 
-
+.caption {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align:center;
+}
+.border {
+  background-color:#41BAC1;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
 .textSection {
   background-color:#642580;
   padding:50px 80px;
@@ -41,7 +53,15 @@ h3 {
 .cake-ingredients {
   background-image: url("ingredients.JPG");
 }
-
+.preparation {
+  background-image: url("mixer.jpg");
+}
+.cooking-instructions {
+  background-image: url("oven.jpg");
+}
+.decoration {
+  background-image: url("rosecake.JPG");
+}
  /* turn off parallax scrolling for hand held devices because it doesn't work onthere */
  @media only screen and (max-device-width: 1024px) {
   .cd-logo, .layer-cake, .kitchen-equipment, .cake-ingredients, .bowl-of-cakemix, .cake-in-oven, .decorated-cake { 
